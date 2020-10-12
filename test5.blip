@@ -1,0 +1,8 @@
+set x
+text "should create error\n"
+set x + x 1
+text "should be 1\n"
+var y + z 1
+text "should create error\n"
+set y 69
+text "should create warning\n"
